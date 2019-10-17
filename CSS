@@ -1,0 +1,33 @@
+h1{
+
+    /*sử dụng tên màu*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    border: 4px solid red;
+    
+}
+h2 {
+    color: aquamarine ;
+    font-language-override: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 300px;
+    
+}
+h1{
+    color: rgb(1000, 1, 2000);
+    /* phối màu giữa red green blu*/
+    border:3px solid blueviolet;
+    padding:  30px;
+    padding: 20px 10px 20px 10px;
+
+    margin: 60px;
+    display: block; 
+
+}
+b,em {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
