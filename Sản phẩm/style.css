@@ -1,0 +1,144 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    background: url(../bettewtopandbody/backgroundbody.png);
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+#header{
+    background: url(../Top/backgroudtop.png) repeat-x;
+    height : 180px ;
+    width: 1920;
+}
+
+#header_margin{
+    border: 1px solid #000;
+    height: 178px;
+    width: 1170px;
+    margin: 0px auto;
+}
+#header_margin .header_margin_left{
+    float: left;
+    height: 180px;
+}
+#header_margin #logo{
+    width: 300px;
+}
+#header_margin #logo img{
+    margin-top: 50px ;
+}
+#header_margin #hethong{
+    width:300 px;
+}
+#header_margin #hethong img{
+    margin-left: -300px;
+    margin-top: 3.5px;
+}
+#header_margin #banhang{
+    width:300 px;
+}
+#header_margin #banhang img{
+    margin-left: -55px;
+    margin-top: 3.5px;
+}
+#header_margin #tragop{
+    width:300 px;
+}
+#header_margin #tragop img{
+    margin-left: 120px;
+    margin-top: 1px;
+}
+#header_margin #baohanh{
+    width:300 px;
+}
+#header_margin #baohanh img{
+    margin-left: 115px;
+    margin-top: 3.5px;
+}
+#header_margin #hopdong{
+    width:300 px;
+}
+#header_margin #hopdong img{
+    margin-left: 120px;
+    margin-top: 3.5px;
+}
+#header_margin #hoadon{
+    width:300 px;
+}
+#header_margin #hoadon img{
+    margin-left: 116px;
+    margin-top: 3.5px;
+}
+#header_margin #formsearch img{
+    margin-left: 190px;
+    margin-bottom: 800px;
+    margin-top: -82px;
+}
+#header_margin #iconsearch{
+    width:300 px;
+}
+#header_margin #iconsearch img{
+    margin-left: -19px;
+    margin-top: -81px;
+    margin-right: 42px;
+    margin-bottom: 70px;
+}
+#header_margin #khuyenmai img{
+    
+    margin-top: -104px;
+    margin-right: 27px;
+    margin-bottom: 75px;
+    margin-left: 70px;
+}
+#header_margin #textkhuyenmai img{
+    margin-left: -23px;
+    margin-top: -104px;
+    margin-right: 42px;
+    margin-bottom: 74px;
+}
+#header_margin #taikhoan img{
+    margin-left: -32px;
+    margin-top: -104px;
+    margin-right: 42px;
+    margin-bottom: 74px;
+}
+#header_margin #icontaikhoan img{
+    margin-left: 40px;
+    margin-top: -104px;
+    margin-right: 42px;
+    margin-bottom: 74px;
+}
+#header_margin #icongiohang{
+    width:300 px;
+}
+#header_margin #icongiohang img{
+    margin-left: 40px;
+    margin-top: -104px;
+    margin-right: 42px;
+    margin-bottom: 74px;
+}
+#header_margin #textgiohang{
+    width:300 px;
+}
+#header_margin #textgiohang img{
+    margin-left: -32px;
+    margin-top: -104px;
+    margin-right: 42px;
+    margin-bottom: 74px;
+}
+
+
+
+
+
+
