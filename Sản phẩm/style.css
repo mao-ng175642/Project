@@ -22,7 +22,7 @@ ul li{
 }
 
 #header_margin{
-    border: 1px solid #000;
+    border: none;
     height: 178px;
     width: 1170px;
     margin: 0px auto;
@@ -84,15 +84,30 @@ ul li{
     margin-bottom: 800px;
     margin-top: -82px;
 }
-#header_margin #iconsearch{
-    width:300 px;
+#header_margin #formsearch input{
+    width: 287px;
+    height: 23.9px;
+    border: none;
+    position: relative;
+    top: -828.9px;
+    bottom: 60px;
+    left: 196px;
+    right: -2px;
+
 }
-#header_margin #iconsearch img{
-    margin-left: -19px;
-    margin-top: -81px;
-    margin-right: 42px;
-    margin-bottom: 70px;
+#header_margin #formsearch button{
+    background: url(../Top/iconsearch.png);
+    width: 16px;
+    height: 18px;
+    border: none;
+    position: relative;
+    top: -827.9px;
+    bottom: 60px;
+    left: 189px;
+    right: -2px;
+    
 }
+
 #header_margin #khuyenmai img{
     
     margin-top: -104px;
@@ -120,22 +135,65 @@ ul li{
 }
 #header_margin #icongiohang{
     width:300 px;
+    position: relative;
 }
 #header_margin #icongiohang img{
     margin-left: 40px;
     margin-top: -104px;
     margin-right: 18px;
     margin-bottom: 74px;
+    position: relative;
 }
 #header_margin #textgiohang{
     width:300 px;
+    position: relative;
 }
 #header_margin #textgiohang img{
     margin-left: -12px;
-    margin-top: -108px;
+    margin-top: -96px;
     margin-right: -37px;
     margin-bottom: 74px;
+    position: absolute;
 }
+
+#slider_menu_margin{
+    margin: 0px auto;
+    height: 467px;
+    width: 1000px;
+}
+#slider_menu_margin #menu{
+    height:32px ;
+    width: 1000px;
+}
+#slider_menu_margin #menu ul li{
+    float: left;   
+    
+}
+#slider_menu_margin #menu ul li a{
+    -webkit-flex-direction: row; 
+     flex-direction:         row;
+    position: relative;
+    float: left;
+    color: 000000;
+    text-decoration: none;
+    line-height: 38px;
+    padding: 0px 16px 0px 17px;
+    top: -184px;
+    bottom: 0px;
+    left: -104px;
+    right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+#slider_menu_margin #menu img.muitenxuong{
+    margin-bottom: -9px;
+    margin-left: -1075px;
+}
+
+
+
+
 
 
 
