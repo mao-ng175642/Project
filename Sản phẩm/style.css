@@ -71,11 +71,11 @@ legend {
 	border: 0;
 	font-weight: 600;
 }
-/* alert start*/
+
 .alert {
 	padding: 8px 14px 8px 14px;
 }
-/* alert end */
+
 label {
 	font-size: 14px;
 	font-weight: 400;
@@ -103,14 +103,14 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
 	margin-left: 10px;
 	float: left;
 }
-/* Fix some bootstrap issues */
+
 span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	display: inline;
 }
 .nav-tabs {
 	margin-bottom: 15px;
 }
-/* top */
+
 
 .list-inline > li:before {
 	background: url(../image/pipe.png);
@@ -238,7 +238,7 @@ header{
 .currency .btn-link:hover .fa, .language .btn-link:hover .fa {
 	color: #fff;
 }
-/* CSS for Header Start */
+
 
 .header-inner {
 	width: 100%;
@@ -260,11 +260,10 @@ header{
 	width: auto;
 	margin: 35px 0;
 }
-/* logo */
+
 #logo {
 	margin: 0;
 }
-/* search */
 .header-right #search .input-lg {
 	height: 45px;
 	width: 300px;
@@ -302,7 +301,7 @@ header{
 	height: 45px;
 	line-height: 12px;
 }
-/* Cart */
+
 
 #cart {
 	margin-bottom: 10px;
@@ -439,7 +438,7 @@ header{
 /* CSS for Header End */
 
 
-/* Menu */
+
 nav {
 	float: left;
 }
@@ -535,7 +534,7 @@ nav {
 #menu .btn-navbar .fa {
 	display: none;
 }
-/* CSS for Menu start */ 
+
 
 .main-navigation > li::before {
 	content: "";
@@ -602,7 +601,7 @@ ul.main-navigation {
 .main-navigation li:hover > ul {
 	display: block;
 }
-/* CSS for Menu level-2 */
+
 
 .main-navigation li li a {
 	color: #000;
@@ -650,15 +649,15 @@ ul.main-navigation > li.menu-last ul ul {
 .main-navigation li li:hover > a {
 	color: #fff;
 }
-/* CSS for Menu end */ 
 
 
 
-/* content */
+
+
 .content {
 	min-height: 600px;
 }
-/* Center align the text within the three columns below the carousel */
+
 .marketing .col-lg-4 {
 	text-align: center;
 }
@@ -676,7 +675,7 @@ ul.main-navigation > li.menu-last ul ul {
 	border: none;
 	border-radius: 0;
 }
-/* CSS for CMS-Banner Start */
+
 .cms_banner {
 	position:relative;
 }
@@ -769,7 +768,7 @@ ul.main-navigation > li.menu-last ul ul {
 #center {
 	padding-top: 0px;
 }
-/* prlx start*/
+
 .parallax-container {
 	position: relative;
 	overflow: hidden;
@@ -794,7 +793,7 @@ ul.main-navigation > li.menu-last ul ul {
 	transform: translate3d(0, 0, 0);
 	transform: translateX(-50%);
 }
-/*testimonial*/
+
 .owl-item li {
 	list-style: outside none none;
 }
@@ -853,8 +852,7 @@ ul.main-navigation > li.menu-last ul ul {
 	display: inline-block;
 	border: 2px solid #999;
 }
-/* testimonial  end*/
-/* prlx end*/
+
 
 .tab-banner {
 	margin-bottom: 50px;
@@ -901,7 +899,7 @@ footer, footer a, .footer-bottom a {
 footer a:hover {
 	color: #ff8f00;
 }
-/* footer cms start */
+
 footer h5 {
 	font-family: Montserrat;
 	font-size: 14px;
@@ -917,7 +915,7 @@ footer ul {
 footer ul li {
 	padding: 1px 0;
 }
-/* breadcrumb */
+
 .breadcrumb {
 	padding: 70px 0 !important;
 	margin: 0 0 90px !important;
@@ -952,7 +950,7 @@ footer ul li {
 .pagination {
 	margin: 0;
 }
-/* buttons */
+
 
 .viewmore {
 	overflow: hidden;
@@ -1054,7 +1052,7 @@ footer ul li {
 	background: #454851;
 	color: #fff
 }
-/* list group */
+
 
 #column-left .list-group a.last, #column-right .list-group a.last {
 	border: none;
@@ -1064,7 +1062,7 @@ footer ul li {
 	background: none;
 	border: none;
 }
-/* carousel */
+
 .carousel-caption {
 	color: #FFFFFF;
 	text-shadow: 0 1px 0 #000000;
@@ -1077,7 +1075,7 @@ footer ul li {
 	content: '\f054';
 	font-family: FontAwesome;
 }
-/* product list */
+
 .customtab .product-thumb {
 	margin: 0 0 30px;
 	text-align: center;
@@ -1383,7 +1381,7 @@ h2.price {
 	text-align: center;
 }
 
-/* fixed colum left + content + right*/
+
 @media (min-width: 768px) {
 #column-left .product-layout .col-md-3 {
 	width: 100%;
@@ -1507,7 +1505,7 @@ h2.price {
 #product-thumbnail.owl-carousel .image-additional a {
 	margin-bottom: 0;
 }
-/* CSS for Custom Tab */
+
 .customtab-wrapper {
 	display: inline-block;
 	vertical-align: top;
@@ -1597,10 +1595,10 @@ h2.price {
 .left-sidebar-widget .product-layout {
 	margin: 15px 0;
 }
-/* CSS for sidebar  block end */ 
 
 
-/* CSS for content Start */
+
+
 .column-block {
 	margin: 0 0 20px;
 }
@@ -1959,10 +1957,10 @@ button.btn.btn-default.btn-lg span {
 	background: #F5F5F5;
 	margin: 0 0 10px;
 }
-/* CSS for content End */
 
 
-/*brand logo*/
+
+
 #brand_carouse .owl-item {
 	opacity: 0.5;
 	transition: color 0.3s ease 0s, border 0.3s ease 0s, background 0.3s ease 0s;
@@ -1985,7 +1983,7 @@ button.btn.btn-default.btn-lg span {
 	cursor: pointer;
 	z-index: 9999;
 }
-/* CSS for Footer-Top CMS start */
+
 .footer-top-cms {
 	min-height: 400px;
 	padding: 140px 0;
@@ -2083,17 +2081,12 @@ button.btn.btn-default.btn-lg span {
 .footer-social li a .fa {
 	font-size: 20px;
 }
-/* CSS for Footer-Top CMS end */
 
-/* CSS for Footer-bottom CMS start */
 
 .footer-bottom .copyright {
 	padding: 3px 0;
 }
-/* CSS for Footer-bottom CMS end */
 
-
-/* CSS for Footer-Right CMS start */
 .footer-contact ul {
 	margin: 0;
 	padding: 0;
@@ -2124,10 +2117,7 @@ button.btn.btn-default.btn-lg span {
 	float: left;
 	padding: 1px;
 }
-/* CSS for Footer-Right CMS end */
 
-/* CSS for Blog Start */
-	/* CSS for Blog Sidebar Start */
 #column-left .blog .blog-heading, #column-right .blog .blog-heading {
 	padding: 0;
 }
@@ -2185,10 +2175,7 @@ button.btn.btn-default.btn-lg span {
 #latestblog .owl-carousel .owl-buttons .owl-prev {
 	right: 36px;
 }
-/* CSS for Blog Sidebar End */
 
-/* CSS for Blog content Start */
-	
 .content .blog .blog-wrapper li {
 	padding: 0 15px;
 }
@@ -2389,10 +2376,7 @@ article, .author {
 	width: 34px;
 	opacity: 1;
 }
-/* CSS for Blog content End */
 
-
-/* CSS for Blog-List Start */
 .blog-list-item {
 	margin: 0 0 20px;
 }
@@ -2450,9 +2434,7 @@ article, .author {
 	opacity: 1;
 	transition-duration: 500ms;
 }
-/* CSS for Blog-List End */
-	
-/* CSS for Single-Blog-List Start  */
+
 	
 .singleblog-desc {
 	margin: 20px 0;
@@ -2479,11 +2461,7 @@ article, .author {
 	bottom: 0;
 	left: 0;
 }
-/* CSS for Single-Blog-List End  */
-	
-/* CSS for Blog end */
 
-/* CSS for Blog List More Start */
 #blogList li {
 	display: none;
 }
@@ -2571,7 +2549,7 @@ video {
 	background: #F0F0F0;
 	color: #666;
 }
-/*   Slder Navigation Arrow    */
+
 
 .home-slider.owl-carousel {
 	border: none;
@@ -2627,8 +2605,7 @@ video {
 	width: 80px;
 }
 .home-slider .owl-next {
-	/*cursor:url("../image/right_arrow.png"), auto !important
-*/
+	
 	cursor: pointer;
 }
 .home-slider .owl-controls .owl-page {
@@ -2670,7 +2647,7 @@ video {
 .brand-logo.owl-carousel .owl-buttons .owl-next:hover {
 	background-position: -3px -217px;
 }
-/*   contact page    */
+
 
 .contact .contactus-title{
 	margin: 0 0 30px 0;
@@ -2719,9 +2696,7 @@ video {
 .map {
 	margin: 100px 50px 0px;
 }
-/*   contact page end    */
 
-/*about page start*/
 
 .aboutus-title {
 	font-family: Montserrat;
