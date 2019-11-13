@@ -8,10 +8,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../ms03/image/logo - Copy.png" rel="icon" type="image/png" >
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="javascript/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet"/>
 <link href="css/stylesheet.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
->
+<link href="javascript/owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="javascript/owl-carousel/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="javascript/jquery-2.1.1.min.js" ></script>
+<script type="text/javascript" src="javascript/bootstrap/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="javascript/template_js/jstree.min.js"></script>
+<script type="text/javascript" src="javascript/template_js/template.js"></script>
+<script type="text/javascript" src="javascript/common.js" ></script>
+<script type="text/javascript" src="javascript/global.js" ></script>
+<script type="text/javascript" src="javascript/owl-carousel/owl.carousel.min.js" ></script>
 </head>
 <body class="category col-2 left-col">
 <div class="preloader loader" style="display: block;"> <img src="image/loader.gif"  alt="#"/></div>
@@ -53,7 +62,7 @@
       </div>
       <div class="col-sm-9 col-xs-9 header-right">
         <div id="search" class="input-group">
-          <input type="text" name="search" value="" placeholder="Enter your keyword ..." class="form-control input-lg" />
+          <input type="text" name="search" value="" placeholder="Nhập từ khóa tìm kiếm ..." class="form-control input-lg" />
           <span class="input-group-btn">
           <button type="button" class="btn btn-default btn-lg"><span>Tìm kiếm</span></button>
           </span> </div>
@@ -141,9 +150,8 @@
         <li><a href="LaptopGaming.html"   class="parent"  >laptop văn phòng</a> </li>
         <li><a href="#" class="active parent">Danh mục</a>
           <ul>
-            <li><a href="LaptopGaming.html"></a></li>
             <li><a href="checkout.html">Thanh toán</a></li>
-            <li><a href="affiliate.html">Hệ thống showroom</a></li>
+            <li><a href="">Hệ thống showroom</a></li>
             <li><a href="cart.html">Giỏ hàng</a></li>
             <li><a href="forgetpassword.html">Quên mật khẩu</a></li>
           </ul>
@@ -562,7 +570,7 @@ $('input[name=\'shipping_address\']').on('change', function() {
                 <div class="pull-right">Tôi đã đọc và đồng ý<a class="agree" href="#"><b>Terms &amp; Điều kiện</b></a>
                   <input type="checkbox" value="1" name="agree">
                   &nbsp;
-                  <input type="button" class="btn btn-primary" data-loading-text="Loading..." id="button-payment-method" value="Continue">
+                  <input type="button" class="btn btn-primary" data-loading-text="Loading..." id="button-payment-method" value="Tiếp tục">
                 </div>
               </div>
             </div>
@@ -612,7 +620,7 @@ $('input[name=\'shipping_address\']').on('change', function() {
               </div>
               <div class="buttons">
                 <div class="pull-right">
-                  <input type="button" data-loading-text="Loading..." class="btn btn-primary" id="button-confirm" value="Confirm Order">
+                  <input type="button" data-loading-text="Loading..." class="btn btn-primary" id="button-confirm" value="Đặt hàng">
                 </div>
               </div>
             </div>
@@ -623,7 +631,7 @@ $('input[name=\'shipping_address\']').on('change', function() {
   </div>
 </div>
 <div class="footer-top-cms parallax-container">
-  <div class="parallax"><img src="image/prlx.jpg" alt="#"></div>
+  <div class="parallax"><img src="../ms03/image/Backgound.jpg" alt="#"></div>
   <div class="container">
     <div class="row">
       <div class="newslatter">
@@ -632,7 +640,7 @@ $('input[name=\'shipping_address\']').on('change', function() {
           <h4 class="title-subline">Hãy chắc chắn rằng bạn đã theo dõi để nhận được những thông tin mới nhất</h4>
           <div class="input-group">
             <input type="text" class=" form-control" placeholder="Your-email@website.com">
-            <button type="submit" value="Đăng ký" class="btn btn-large btn-primary">Subscribe</button>
+            <button type="submit" value="Đăng ký" class="btn btn-large btn-primary">Đăng ký</button>
           </div>
         </form>
       </div>
@@ -700,7 +708,7 @@ $('input[name=\'shipping_address\']').on('change', function() {
       <div class="col-sm-3 footer-block">
         <h5 class="footer-title">THÔNG TIN</h5>
         <ul class="list-unstyled ul-wrapper">
-          <li><a href="contact.html">Giới thiệu chung</a></li>
+          <li><a href="">Giới thiệu chung</a></li>
           <li><a href="#">Thông tin đơn hàng</a></li>
           <li><a href="#">Chính sách bảo mật</a></li>
           <li><a href="#">Điều khoản và điều kiện</a></li>
@@ -713,7 +721,7 @@ $('input[name=\'shipping_address\']').on('change', function() {
       <div class="col-sm-3 footer-block">
         <h5 class="footer-title">TÀI KHOẢN </h5>
         <ul class="list-unstyled ul-wrapper">
-          <li><a href="contact.html">Liên hệ với chúng tôi</a></li>
+          <li><a href="">Liên hệ với chúng tôi</a></li>
           <li><a href="#">Tài khoản của tôi</a></li>
           <li><a href="#">Lịch sử mua hàng</a></li>
           <li><a href="#">Danh sách yêu thích</a></li>
@@ -764,7 +772,6 @@ $('input[name=\'shipping_address\']').on('change', function() {
         <li><a href="#">Dịch vụ</a></li>
         <li><a href="#">Bộ phận</a></li>
         <li><a href="#">Giá cả</a></li>
-        <li><a href="#">Blog</a></li>
         <li><a href="#">Giao tiếp</a></li>
       </ul>
       <div class="footer-bottom-cms">
