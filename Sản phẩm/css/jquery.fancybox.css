@@ -1,4 +1,4 @@
-/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -163,8 +163,6 @@
 	overflow: visible !important;
 }
 
-/* Overlay helper */
-
 .fancybox-lock {
     overflow: visible !important;
     width: auto;
@@ -199,7 +197,6 @@
 	overflow-y: scroll;
 }
 
-/* Title helper */
 
 .fancybox-title {
 	visibility: hidden;
@@ -258,7 +255,6 @@
 	background: rgba(0, 0, 0, .8);
 }
 
-/*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
 	   only screen and (min-device-pixel-ratio: 1.5){
