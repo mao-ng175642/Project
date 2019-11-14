@@ -15,11 +15,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #121212;
 	font-family: Montserrat;
 }
-/* default font size */
+
 .fa {
 	font-size: 16px;
 }
-/* Override the bootstrap defaults */
+
 h1 {
 	font-size: 18px;
 	font-weight: 400;
@@ -435,7 +435,7 @@ header{
 	min-width: 100%;
 }
 }
-/* CSS for Header End */
+
 
 
 
@@ -556,7 +556,7 @@ nav {
 .main-navigation > li:hover {
 	background: #FF8F00;
 }
-/* CSS for Menu level-1 */ 
+
 .main-navigation li a {
 	color: #000;
 	font-family: Montserrat;
@@ -1969,7 +1969,7 @@ button.btn.btn-default.btn-lg span {
 	opacity: 1;
 	transition: color 0.3s ease 0s, border 0.3s ease 0s, background 0.3s ease 0s;
 }
-/* end*/
+
 
 #scrollup {
 	background: url("../image/scroll.png") no-repeat;
