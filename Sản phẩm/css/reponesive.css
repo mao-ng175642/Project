@@ -25,7 +25,7 @@
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
-/* Header */
+
 .home-slider .owl-buttons {
 	bottom: 170px;
 }
@@ -109,7 +109,7 @@ span.banner-mid-text2 {
 }
 
 @media (max-width: 979px) {
-/*Respo Header*/
+
 .header-inner {
 	padding: 20px 0 10px;
 	position: relative;
@@ -447,7 +447,7 @@ footer .ul-wrapper {
 .wel-come-msg {
 	display: none;
 }
-/* Column */
+
 .col-3 #content {
 	width: 100%;
 }
@@ -787,7 +787,7 @@ div#subbanner5, div#subbanner4 {
 }
 
 @media (max-width: 320px) {
-/* Header */
+
 #top-links {
 	margin: 0;
 }
